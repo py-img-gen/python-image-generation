@@ -27,7 +27,7 @@ format: install
 
 .PHONY: typecheck
 typecheck: install
-	uv run mypy .
+	uv run mypy .jupytext
 	uv run nbqa mypy notebooks
 
 .PHONY: apply-formatter
