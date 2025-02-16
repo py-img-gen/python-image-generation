@@ -1,0 +1,43 @@
+[project]
+name = "python-image-generation"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["ipywidgets>=8.1.5", "jupyterlab>=4.3.0"]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.0.0",
+    "pytest>=6.0.0",
+    "ruff>=0.1.5",
+    "jupytext>=1.16.4",
+    "nbmake>=1.5.4",
+    "nbqa>=1.9.0",
+]
+
+[tool.ruff]
+# To match the maximum number of characters in the book
+line-length = 60
+extend-include = ["*.ipynb", "latex"]
+
+[tool.ruff.lint]
+ignore = [
+    "E402", # module-import-not-at-top-of-file
+]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "diffusers.*"
+disallow_untyped_calls = false
+
+[[tool.mypy.overrides]]
+module = "IPython.display.*"
+disallow_untyped_calls = false
+
+[tool.jupytext.formats]
+"notebooks/" = "ipynb"
+"jupytext/scripts/" = "py:percent"
