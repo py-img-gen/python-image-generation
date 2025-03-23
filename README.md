@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/py-img-gen/python-image-generation/actions/workflows/ci.yaml/badge.svg)](https://github.com/py-img-gen/python-image-generation/actions/workflows/ci.yaml)
 
-<img align="right" width="30%" src="https://py-img-gen.github.io/images/about/perspective.png">
+<img align="right" width="30%" src="https://github.com/user-attachments/assets/41bf761b-b55c-49d9-a273-df34c68f4a4b">
 
 本レポジトリではインプレス社より出版されている　北田 俊輔 著 の機械学習シリーズ「Pythonで学ぶ画像生成」で扱うソースコードを管理しています。
 ソースコードは Jupyter Notebook 形式でまとめられており、Google Colab 等で実行することを想定しています。
