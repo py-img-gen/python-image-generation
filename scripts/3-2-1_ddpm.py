@@ -67,6 +67,9 @@ model_config = DDPMModelConfig()
 print(model_config)
 
 
+# %% [markdown]
+# ## シードの固定
+
 # %%
 from transformers import set_seed
 
