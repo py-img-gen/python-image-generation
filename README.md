@@ -125,6 +125,23 @@ Jupyter Notebook の補助教材があるセクションには `Open in Colab` �
 - ⚙️ [py-img-gen/huggingface-datasets_ukiyo-e-face-blip2-captions: 🤗 Ukiyo-e-face dataset with BLIP2 captions for huggingface datasets](https://github.com/py-img-gen/huggingface-datasets_ukiyo-e-face-blip2-captions )
     - 本書で紹介する LoRA の実装例で浮世絵スタイルの画像生成を実現する方法について紹介しています。その際に [Ukiyo-e-face データセット](https://www.justinpinkney.com/blog/2020/ukiyoe-dataset/)に対して、[BLIP2](https://arxiv.org/abs/2301.12597) を適用して画像とキャプションのペアデータセットを作成しています。データセットは [huggingface datasets 形式で公開](https://huggingface.co/datasets/py-img-gen/ukiyo-e-face-blip2-captions)しています。本レポジトリでは huggingface datasets を作成する際の loading script を公開しています。
 
+## 🗣️ 読者の声
+
+### [【書評】 Pythonで学ぶ画像生成 機械学習実践シリーズ｜npaka](https://note.com/npaka/n/n349aa47fe957)
+
+> 近年、生成AIの技術革新により「画像生成」の世界は急速に発展しています。そんな中、注目すべき一冊が『Pythonで学ぶ画像生成 機械学習実践シリーズ』です。本書は、深層学習を基盤とした画像生成について、基礎理論から実践的なPython実装例までを丁寧に解説しており、画像生成の全貌に迫る実践的な指南書と言えるでしょう。
+
+### [Pythonで学ぶ画像生成の書評｜あるふ](https://note.com/alfredplpl/n/n2809e615af4a)
+
+> 画像生成の学びたい人にまず手渡したい本がやっとできたという気持ちになっています。著者の北田さんお疲れ様でした。（僕は気合が足りなくてかけませんでした・・・
+
+### [この本から勉強できる人が羨ましいです。| asap](https://x.com/asap2650/status/1903980641508831503)
+
+> 前半は初学者でも分かりやすく、図や丁寧なコードで分かりやすく説明されており、読みやすいです。
+> 図に関しても、ただ論文の図を貼っただけみたいなものではなく、今回のために分かりやすく作っていたり、注釈に理解できるように丁寧に解説が書いてあり、感動しました。
+> 後半以降は、最近流行りの「画像編集」の手法や、プロンプト忠実性を高める手法、一貫性モデルなど、研究的な話も読めます。
+> 内容的には少し難しくなるはずですが、とても分かりやすく簡潔に書かれているため、「手法の凄さ」と「設計の意図」がスッと入ってくるようになっており、無駄がないです。
+
 ## ❓ 疑問点・修正点
 
 疑問点や修正点は以下の Issue にて管理しています。不明点などございましたら以下を確認し、解決方法が見つからない場合には新しく Issue を作成してください。
