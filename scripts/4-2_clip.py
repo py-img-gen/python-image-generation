@@ -22,6 +22,9 @@
 # ## 準備
 
 # %%
+# !pip install -qq py-img-gen
+
+# %%
 import warnings
 
 import torch
