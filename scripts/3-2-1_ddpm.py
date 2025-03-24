@@ -22,7 +22,7 @@
 # 参考: https://github.com/JeongJiHeon/ScoreDiffusionModel/blob/main/DDPM/DDPM_MNIST.ipynb
 
 # %% [markdown]
-# # 準備
+# ## 準備
 
 # %%
 # !pip install -qq py-img-gen
