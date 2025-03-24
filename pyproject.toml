@@ -40,4 +40,4 @@ disallow_untyped_calls = false
 
 [tool.jupytext.formats]
 "notebooks/" = "ipynb"
-".jupytext/scripts/" = "py:percent"
+"jupytext/scripts/" = "py:percent"
