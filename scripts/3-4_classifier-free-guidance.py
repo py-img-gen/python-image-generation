@@ -22,7 +22,7 @@
 # ## 準備
 
 # %%
-# !pip install py-img-gen
+# !pip install -qq py-img-gen
 
 # %%
 import warnings
@@ -182,6 +182,7 @@ guidance_scale = 7.5
 
 # %% [markdown]
 # ### CFG の実行関数の定義
+
 
 # %%
 def classifier_free_guidance(

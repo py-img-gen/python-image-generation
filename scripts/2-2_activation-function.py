@@ -62,6 +62,7 @@ x
 # %% [markdown]
 # ## シグモイド関数
 
+
 # %%
 def sigmoid_function(x):
     return 1.0 / (1.0 + np.exp(-x))
@@ -76,6 +77,7 @@ fig.savefig(project_dir / "sigmoid.pdf")
 
 # %% [markdown]
 # ## tanh 関数
+
 
 # %%
 def tanh_function(x):
@@ -93,6 +95,7 @@ fig.savefig(project_dir / "tanh.pdf")
 
 # %% [markdown]
 # ## ReLU 関数
+
 
 # %%
 def relu_function(x):
