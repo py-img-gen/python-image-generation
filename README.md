@@ -124,6 +124,8 @@ Jupyter Notebook の補助教材があるセクションには `Open in Colab` �
     - 本書で説明する [TIME](https://arxiv.org/abs/2303.08084) について、diffusers オフィシャルで用意されているものを fork して最新版 diffusers で正しく動作するように修正実装した GitHub レポジトリです。
 - ⚙️ [py-img-gen/huggingface-datasets_ukiyo-e-face-blip2-captions: 🤗 Ukiyo-e-face dataset with BLIP2 captions for huggingface datasets](https://github.com/py-img-gen/huggingface-datasets_ukiyo-e-face-blip2-captions )
     - 本書で紹介する LoRA の実装例で浮世絵スタイルの画像生成を実現する方法について紹介しています。その際に [Ukiyo-e-face データセット](https://www.justinpinkney.com/blog/2020/ukiyoe-dataset/)に対して、[BLIP2](https://arxiv.org/abs/2301.12597) を適用して画像とキャプションのペアデータセットを作成しています。データセットは [huggingface datasets 形式で公開](https://huggingface.co/datasets/py-img-gen/ukiyo-e-face-blip2-captions)しています。本レポジトリでは huggingface datasets を作成する際の loading script を公開しています。
+- 🎞️ [画像生成AI入門：Pythonによる拡散モデルの理論と実践 リサーチサイエンティスト 北田俊輔 | Coloso.](https://coloso.jp/products/researchscientist-kitada-jp )
+    - 著者が Coloso. というビデオオンデマンド型オンライン教育サービスにて公開している動画コンテンツです。本書と併せて学習することで、より深い理解を得ることができると考えています。
 
 ## 🗣️ 読者の声
 
