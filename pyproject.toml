@@ -1,7 +1,7 @@
 [project]
 name = "python-image-generation"
 version = "1.0.0"
-description = "Add your description here"
+description = "「Pythonで学ぶ画像生成」のサンプルコード"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
