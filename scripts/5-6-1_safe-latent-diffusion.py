@@ -19,8 +19,10 @@
 # [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/py-img-gen/python-image-generation/blob/main/notebooks/5-6-1_safe-latent-diffusion.ipynb)
 
 # %% [markdown]
+# 参考: https://hf.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_safe
+
+# %% [markdown]
 # ## 準備
-# - 参考: https://hf.co/docs/diffusers/api/pipelines/stable_diffusion/stable_diffusion_safe
 
 # %%
 # !pip install -qq py-img-gen
