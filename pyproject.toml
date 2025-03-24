@@ -4,7 +4,11 @@ version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["ipywidgets>=8.1.5", "jupyterlab>=4.3.0"]
+dependencies = [
+    "ipywidgets>=8.1.5",
+    "jupyterlab>=4.3.0",
+    "py-img-gen[clip,controlnet,lora,ncsn,quantization,sd3]>=0.1.0",
+]
 
 [dependency-groups]
 dev = [
