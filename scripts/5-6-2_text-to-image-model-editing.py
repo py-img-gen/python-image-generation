@@ -19,6 +19,10 @@
 # [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/py-img-gen/python-image-generation/blob/main/notebooks/5-6-2_text-to-image-model-editing.ipynb)
 
 # %% [markdown]
+# - 参考1: https://hf.co/docs/diffusers/main/en/api/pipelines/model_editing
+# - 参考2: https://github.com/py-img-gen/diffusers-text-to-model-editing
+
+# %% [markdown]
 # ## 準備
 
 # %%
@@ -35,11 +39,6 @@ device = torch.device(
 seed = 19950815
 
 warnings.simplefilter("ignore", FutureWarning)
-
-# %% [markdown]
-# ## Text-to-Image Model Editing (TIME) の実践
-# - 参考1: https://hf.co/docs/diffusers/main/en/api/pipelines/model_editing
-# - 参考2: https://github.com/py-img-gen/diffusers-text-to-model-editing
 
 # %% [markdown]
 # ### パイプラインの設定
