@@ -22,7 +22,7 @@
 # !pip install -qq py-img-gen
 
 # %% [markdown]
-# # 準備
+# ## 準備
 
 # %%
 from typing import Optional
@@ -32,7 +32,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 # %% [markdown]
-# # Transformer の実装例
+# ## Transformer の実装例
 
 
 # %%
@@ -67,7 +67,7 @@ class Transformer(nn.Module):
 
 
 # %% [markdown]
-# # Transformer Encoder の実装例
+# ## Transformer Encoder の実装例
 
 
 # %%
@@ -95,7 +95,7 @@ class Encoder(nn.Module):
 
 
 # %% [markdown]
-# # Transformer Decoder の実装例
+# ## Transformer Decoder の実装例
 
 
 # %%
@@ -127,7 +127,7 @@ class Decoder(nn.Module):
 
 
 # %% [markdown]
-# # Transformer Encoder レイヤーの実装例
+# ## Transformer Encoder レイヤーの実装例
 
 
 # %%
@@ -165,7 +165,7 @@ class EncoderLayer(nn.Module):
 
 
 # %% [markdown]
-# # Multi-head Attention の実装例
+# ## Multi-head Attention の実装例
 
 
 # %%
@@ -204,7 +204,7 @@ class MultiheadAttention(nn.Module):
 
 
 # %% [markdown]
-# # Self-Attention の実装例
+# ## Self-Attention の実装例
 
 
 # %%
@@ -252,7 +252,7 @@ class SelfAttention(nn.Module):
 
 
 # %% [markdown]
-# # Transformer Decoder レイヤーの実装例
+# ## Transformer Decoder レイヤーの実装例
 
 
 # %%
