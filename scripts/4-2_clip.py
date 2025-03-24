@@ -22,7 +22,7 @@
 # ## 準備
 
 # %%
-# !pip install -qq py-img-gen
+# !pip install -qq py-img-gen[clip]
 
 # %%
 import warnings
