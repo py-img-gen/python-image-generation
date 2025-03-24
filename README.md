@@ -3,7 +3,7 @@
 [![CI](https://github.com/py-img-gen/python-image-generation/actions/workflows/ci.yaml/badge.svg)](https://github.com/py-img-gen/python-image-generation/actions/workflows/ci.yaml)
 [![License](https://img.shields.io/badge/License-Appach--2.0-blue)](https://github.com/py-img-gen/python-image-generation/blob/main/LICENSE)
 ![Python](https://img.shields.io/badge/🐍%20Python-3.10+-orange)
-[![Diffusers](https://img.shields.io/badge/🤗%20Diffusers-0.32.0-orange)](https://github.com/huggingface/diffusers)
+[![Diffusers](https://img.shields.io/badge/🤗%20Diffusers-0.31.0-orange)](https://github.com/huggingface/diffusers)
 
 <img align="right" width="30%" src="https://github.com/user-attachments/assets/41bf761b-b55c-49d9-a273-df34c68f4a4b" alt="Pythonで学ぶ画像生成">
 
@@ -22,6 +22,18 @@
 -  Python・PyTorchで学ぶ画像生成の実装
 -  Diffusersによる最先端技術の実践
 -  画像生成を中心とした様々なタスクの解説を多数収録
+
+## 動作要件
+
+本書のサンプルコードではでは以下の環境での動作を想定しています。
+
+| 🐍 / 📦 | ドキュメント | 最低要件 |
+|-----------------|-----------------------------------------------------------|-------------|
+| 🐍 python       | https://docs.python.org/ja/3.10/             | 3.10 以上   |
+| 📦 pytorch      | https://github.com/pytorch/pytorch           | 2.0 以上    |
+| 📦 transformers | https://github.com/huggingface/transformers  | 4.48.0 以上 |
+| 📦 diffusers    | https://github.com/huggingface/diffusers     | 0.31.0 以上 |
+| 📦 py-img-gen   | https://github.com/py-img-gen/py-img-gen-lib | 0.1.0 以上  |
 
 ## 📕 書籍の内容と補助教材
 
