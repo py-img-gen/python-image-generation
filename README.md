@@ -39,6 +39,9 @@
 
 Jupyter Notebook の補助教材があるセクションには `Open in Colab` のバッジを付与しています。バッジをクリックすると該当するノートブックを Colab で開くことができます。
 
+> [!NOTE]
+> 本レポジトリでは [jupytext](https://github.com/mwouts/jupytext) を使用して [`.jupytext/scripts`](https://github.com/py-img-gen/python-image-generation/tree/main/.jupytext/scripts) 以下に各 Jupyter Notebook に対応するスクリプトを用意しています。合わせてご確認ください。
+
 ### 第 1 章: 画像生成とは？
 
 | Section | GitHub | Colab |
