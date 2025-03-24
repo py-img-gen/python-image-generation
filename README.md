@@ -7,7 +7,7 @@
 
 <img align="right" width="30%" src="https://github.com/user-attachments/assets/41bf761b-b55c-49d9-a273-df34c68f4a4b" alt="Pythonで学ぶ画像生成">
 
-本レポジトリではインプレス社より出版されている　[北田 俊輔](https://shunk031.me/) 著 の機械学習シリーズ「[Pythonで学ぶ画像生成](https://book.impress.co.jp/books/1123101104)」で扱うソースコードを管理しています。
+本レポジトリではインプレス社より出版されている [北田 俊輔](https://shunk031.me/) 著 の機械学習シリーズ「[Pythonで学ぶ画像生成](https://book.impress.co.jp/books/1123101104)」で扱うソースコードを管理しています。
 ソースコードは Jupyter Notebook 形式でまとめられており、Google Colab 等で実行することを想定しています。
 
 ソースコードの解説は主に書籍内に記載されており、本レポジトリのソースコードは補助教材となっています。
