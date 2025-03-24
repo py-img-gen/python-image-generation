@@ -333,6 +333,7 @@ def sample(
 # %% [markdown]
 # ### プロンプト埋め込みを取得する関数の定義
 
+
 # %%
 @torch.no_grad()
 def encode_prompt_embeds(
@@ -396,6 +397,7 @@ def apply_cfg(
 # %% [markdown]
 # ### 逆拡散過程の実行関数の定義
 
+
 # %%
 @torch.no_grad()
 def reverse_diffusion_step(
@@ -449,6 +451,7 @@ def reverse_diffusion_step(
 
 # %% [markdown]
 # ### 潜在表現から画像への変換関数の定義
+
 
 # %%
 @torch.no_grad()
@@ -517,6 +520,7 @@ latent = vae_scaling_factor * latent.latent_dist.sample()
 # %% [markdown]
 # ### Inversion 実行関数の定義
 
+
 # %%
 def invert(
     prompt: str,
@@ -570,6 +574,7 @@ def invert(
 
 # %% [markdown]
 # ### 1 ステップの Inversion を実行する関数の定義
+
 
 # %%
 @torch.no_grad()
