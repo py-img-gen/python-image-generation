@@ -354,7 +354,7 @@ def training_function(
     )
     learning_rate = hparams.learning_rate
     max_train_steps = hparams.max_train_steps
-    output_dir_path = hparams.output_dir_path
+    # output_dir_path = hparams.output_dir_path
     gradient_checkpointing = hparams.gradient_checkpointing
 
     # 学習を効率化する Accelerator の設定
@@ -579,7 +579,7 @@ def training_function(
         pipeline.save_pretrained(hparams.output_dir_path)
         # 新たに追加した概念に対応するパラメータも保存
         save_path = os.path.join(
-            hparams.output_dir_path, f"learned_embeds.bin"
+            hparams.output_dir_path, "learned_embeds.bin"
         )
         save_progress(
             text_encoder,
