@@ -18,7 +18,7 @@ install:
 
 .PHONY: lint
 lint: install
-	uv run ruff check --output-format=github .
+	uv run ruff check --output-format=github scripts
 	uv run nbqa ruff notebooks
 
 .PHONY: format
@@ -27,7 +27,7 @@ format: install
 
 .PHONY: typecheck
 typecheck: install
-	uv run mypy .jupytext
+	uv run mypy scripts
 	uv run nbqa mypy notebooks
 
 .PHONY: apply-formatter
