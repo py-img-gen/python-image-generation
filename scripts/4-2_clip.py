@@ -148,7 +148,6 @@ import os
 
 import skimage
 from more_itertools import sort_together
-from PIL import Image
 
 original_imgs, original_txts = [], []
 
